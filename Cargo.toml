@@ -1,0 +1,22 @@
+[package]
+name = "utf64"
+version = "0.1.0"
+edition = "2021"
+authors = ["Problem Solver 5221"]
+description = "UTF-64: Universal Transformation Format 64 — A hierarchical, nibble-based Unicode encoding optimized for English-language text compression"
+license = "MIT"
+repository = "https://github.com/your-org/utf64"
+keywords = ["encoding", "unicode", "compression", "format"]
+categories = ["encoding", "compression"]
+
+[dependencies]
+
+[dev-dependencies]
+
+[[bin]]
+name = "utf64"
+path = "src/main.rs"
+
+[lib]
+name = "utf64"
+path = "src/lib.rs"
